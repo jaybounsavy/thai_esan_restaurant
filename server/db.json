@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Papiya Salad",
+      "description": "Lao style (green papiya, garlic sauce, tomato, lime, hot chillies) Lao style (added shrimp paste, fish paste, crab sauce",
+      "price": "$14.99",
+      "image": "papiya_salad.jpeg",
+      "unique_id": "11"
+    },
+    {
+      "id": 2,
+      "name": "Roast Duck",
+      "description": "Roast duck served with  side of rice, sweet and sour sauce.",
+      "price": "$10.99",
+      "image": "roast_duck.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Lardna",
+      "description": "(Vegetable, chicken, beef, pork, tofu) fresh noodle stir-fried with eggs, broccolli, carrot in garlic, brown sauce, sugar, salt.",
+      "price": "$7.95",
+      "image": "lardna.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pad Thai",
+      "description": "Stir-fried noodles with eggs, bean sprout, green onion, spices and top with ground peanuts.",
+      "price": "$9.59",
+      "image": "pad_thai.jpeg"
+    },    
+    {
+      "id": 5,
+      "name": "Pho Hang (Chicken, Beef, Pork, Tofu)",
+      "description": "Boiled noodle, bean sprout, onion garlic.",
+      "price": "$7.95",
+      "image": "pho.jpg"
+    }
+  ]
+}
