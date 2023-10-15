@@ -1,15 +1,9 @@
 
-
-const defaultBaseUrl = 'http://localhost:3000';
-
 export default class MenuItemService {
 
     constructor(url) {
 
-        this.url = url || defaultBaseUrl;
-
-
-
+        this.url = url;
     }
 
 
@@ -50,21 +44,6 @@ export default class MenuItemService {
         // Declare and build a URL to retrieve all menu items
         let url =  "http://localhost:8000/menu/" + id;
 
-        // // Call API to retrieve a signle menu item
-        // return fetch(url).then(res => res.json() )
-        //                         .then((data) => {
-        //                             return data.map((d,index) => {
-        //                                 return {
-        //                                     id: d.id,
-        //                                     name: d.name,
-        //                                     description: d.description,
-        //                                     price: d.price,
-        //                                     image: d.image
-
-        //                                 }
-
-        //                             });    
-        //                         });
 
         // Call API to retrieve a signle menu item
         return fetch(url).then(res => res.json() )
@@ -146,8 +125,6 @@ export default class MenuItemService {
 
     deleteMenuItem( id ) {
     
-        console.log( "id " + id );
-
         let urlToDelete = "http://localhost:8000/menu/" + id;
     
         fetch(urlToDelete, { method: 'DELETE' })
