@@ -3,7 +3,6 @@ export default class MenuItemService {
 
     constructor(url) {
 
-        this.url = url || defaultBaseUrl;
         this.url = url;
     }
 
